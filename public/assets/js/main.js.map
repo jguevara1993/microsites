@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.js"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA","file":"main.js","sourcesContent":["CKEDITOR.replace('post');\n\n$('.message a').click(function(){\n   $('form').animate({height: \"toggle\", opacity: \"toggle\"}, \"slow\");\n});\n"]}
