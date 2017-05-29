@@ -34,13 +34,13 @@
               <div class="form-group">
                 <label for="password" class="control-label col-sm-4">Contraseña: </label>
                 <div class="col-sm-8">
-                  <input type="password" name="password" value="{{ Auth::user()->password }}" class="form-control">
+                  <input type="password" name="password" placeholder="Ingresa tu contraseña" class="form-control" required>
                 </div>
               </div>
               <div class="form-group">
                 <label for="repeatPassword" class="control-label col-sm-4">Repite Contraseña: </label>
                 <div class="col-sm-8">
-                  <input type="password" name="repeatPassword" placeholder="Repite el password" class="form-control">
+                  <input type="password" name="repeatPassword" placeholder="Repite el password" class="form-control" required>
                 </div>
               </div>
               <div class="form-group">

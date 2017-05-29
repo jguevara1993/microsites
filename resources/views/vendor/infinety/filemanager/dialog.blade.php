@@ -45,13 +45,13 @@
                                 <div class="upload_div hide">
                                     <input type="file" name="files[]" id="single-upload-file" multiple="multiple" title="Click to add Files">
                                 </div>
-                                <li><button class="btn btn-info btn-cons" id="single-upload"<i class="fa fa-upload"></i> Upload</button></li>
-                                <li><button class="btn btn-info btn-cons" data-toggle="modal" data-target="#modalCreateFolder"><i class="fa fa-folder"></i> Create Folder</button></li>
+                                <li><button class="btn btn-info btn-cons" id="single-upload"<i class="fa fa-upload"></i> Subir</button></li>
+                                <li><button class="btn btn-info btn-cons" data-toggle="modal" data-target="#modalCreateFolder"><i class="fa fa-folder"></i> Crear carpeta</button></li>
                                 <li class="home"><button class="btn btn-default"><i class="fa fa-home"></i></button></li>
                                 <li class="refresh"><button class="btn btn-default"><i class="fa fa-refresh"></i></button></li>
-                                <li class="move hide"><button class="btn btn-default"><i class="fa fa-arrows"></i> Move</button></li>
-                                <li class="delete hide"><button class="btn btn-default"><i class="fa fa-trash"></i> Delete</button></li>
-                                <li class="preview hide"><button class="btn btn-default"><i class="fa fa-eye"></i> Preview</button></li>
+                                <li class="move hide"><button class="btn btn-default"><i class="fa fa-arrows"></i> Mover</button></li>
+                                <li class="delete hide"><button class="btn btn-default"><i class="fa fa-trash"></i> Eliminar</button></li>
+                                <li class="preview hide"><button class="btn btn-default"><i class="fa fa-eye"></i> Vista previa</button></li>
                                 <li class="find">
                                     <div class="navbar-form navbar-left navbar-input-group">
                                         <div class="input-group form-search">
@@ -70,7 +70,7 @@
                                     <div class="form-group">
                                         <input type="text" class="form-control" placeholder="Search">
                                     </div>
-                                    <button type="submit" class="btn btn-default">Submit</button>
+                                    <button type="submit" class="btn btn-default">Enviar</button>
                                 </form>
                                 <ul class="nav navbar-nav navbar-right views">
                                     <li class="list view-type"><button class="btn btn-default"><i class="fa fa-th-list"></i></button></li>

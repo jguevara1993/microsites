@@ -17,11 +17,11 @@
   <section class="content">
     <div class="row">
       @foreach($themes as $themes)
-        <div class="col-sm-4">
+        <div class="col-sm-12 col-md-3">
           <div class="box box-info">
             <div class="box-body">
               <h1>{{$themes->theme_name}}</h1>
-              <img src="../themes/{{$themes->theme_name}}/assets/images/{{$themes->theme_image}}" class="img-responsive">
+              <a href="../themes/{{$themes->theme_name}}/assets/images/{{$themes->theme_image}}" target="_blank"><img src="../themes/{{$themes->theme_name}}/assets/images/{{$themes->theme_image}}" class="img-responsive"></a>
             </div>
               <div class="box-footer">
               <form class="" action="{{ route('themes.set') }}" method="POST">

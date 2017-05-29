@@ -6,18 +6,18 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="text-left p-b-5"><span class="semi-bold">New folder</span> name</h5>
+                <h5 class="text-left p-b-5"><span class="semi-bold">Nueva carpeta</span> nombre</h5>
             </div>
             <div class="modal-body">
                 <div class="row">
                     <div class="col-md-9">
-                        <input type="text" placeholder="Name of the new folder" class="form-control input-lg" id="folder-name" name="folder-name">
+                        <input type="text" placeholder="nombre de la nueva carpeta" class="form-control input-lg" id="folder-name" name="folder-name">
                     </div>
                     <div class="col-md-3 text-center">
-                        <button type="button" id="create-folder" class="btn btn-primary btn-lg btn-large fs-15">Create Folder</button>
+                        <button type="button" id="create-folder" class="btn btn-primary btn-lg btn-large fs-15">Crear carpeta</button>
                     </div>
                 </div>
-                <p class="text-left hinted-text p-t-10 p-r-10">New folder will be created on current folder</p>
+                <p class="text-left hinted-text p-t-10 p-r-10">Una nueva carpeta se creara.</p>
             </div>
             <div class="modal-footer">
 
@@ -37,7 +37,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="text-left p-b-5"><span class="semi-bold">Rename</span> <span class="file-info hide">this file</span> <span class="folder-info hide">this folder</span></h5>
+                <h5 class="text-left p-b-5"><span class="semi-bold">Renombrar</span> <span class="file-info hide">este archivo</span> <span class="folder-info hide">esta carpeta</span></h5>
             </div>
             <div class="modal-body">
                 <div class="row">
@@ -45,16 +45,16 @@
                     <input type="hidden" id="path">
                     <div class="col-md-9">
                         <div class="input-group" id="data-rename">
-                            <input type="text" placeholder="Your new name" class="form-control input-lg" id="new-name" name="new-name">
+                            <input type="text" placeholder="Tu nuevo nombre" class="form-control input-lg" id="new-name" name="new-name">
                             <span class="input-group-addon extension-info" id="new-ext"></span>
                         </div>
                     </div>
                     <div class="col-md-3 text-center">
-                        <button type="button" id="rename-file" class="btn btn-primary btn-lg btn-large fs-15">Rename</button>
+                        <button type="button" id="rename-file" class="btn btn-primary btn-lg btn-large fs-15">Renombrar</button>
                     </div>
                 </div>
                 <p class="text-left hinted-text p-t-10 p-r-10">
-                    <span>If new name exists, some data will be added to your new name</span>
+                    <span>Si el nuevo nombre existe, se agregara una cadena para identificarlo</span>
                 </p>
             </div>
             <div class="modal-footer">
@@ -85,12 +85,12 @@
                         </div>
                         <div class="col-md-4 b-l b-grey" id="modal-info">
                             <ul class="no-style">
-                                <li><b>Name</b>: <span id="modal-name"></span></li>
-                                <li><b>Size</b>: <span id="modal-size"></span></li>
-                                <li class="hide"><b>Height</b>: <span id="modal-height"></span></li>
-                                <li class="hide"><b>Width</b>: <span id="modal-width"></span></li>
+                                <li><b>Nombre</b>: <span id="modal-name"></span></li>
+                                <li><b>Tamaño</b>: <span id="modal-size"></span></li>
+                                <li class="hide"><b>Alto</b>: <span id="modal-height"></span></li>
+                                <li class="hide"><b>Ancho</b>: <span id="modal-width"></span></li>
                             </ul>
-                            <button class="btn btn-complete m-t-30 hide">Download file</button>
+                            <button class="btn btn-complete m-t-30 hide">Descargar</button>
                         </div>
                     </div>
                 </div>

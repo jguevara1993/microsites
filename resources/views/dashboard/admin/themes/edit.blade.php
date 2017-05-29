@@ -5,7 +5,7 @@
   <section class="content-header">
     <div class="row">
       <div class="col-sm-12">
-        <h1>Crear Bloque</h1>
+        <h1>Editar Bloque {{$block->id}} , {{$block->title}}</h1>
         <p>Crea un nuevo bloque para una pagina</p>
       </div>
     </div>

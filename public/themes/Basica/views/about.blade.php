@@ -1,5 +1,5 @@
 @extends('Basica::layouts.main')
-@section('title', 'Index')
+@section('title', 'Sobre nosotros')
 @section('content')
 
 <div class="section section-breadcrumbs">

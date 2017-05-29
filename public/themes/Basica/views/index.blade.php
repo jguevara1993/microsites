@@ -1,5 +1,5 @@
 @extends('Basica::layouts.main')
-@section('title', 'Index')
+@section('title', 'Inicio')
 @section('content')
 
 <section id="main-slider" class="no-margin">

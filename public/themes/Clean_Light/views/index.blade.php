@@ -1,5 +1,5 @@
 @extends('Clean_Light::layouts.main')
-@section('title', 'Index')
+@section('title', 'Inicio')
 @section('content')
 <section>
   <div class="container">

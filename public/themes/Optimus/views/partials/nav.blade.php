@@ -21,3 +21,20 @@
           </div>
       </div>
 </header>
+<section id="banner">
+
+<!-- Slider -->
+      <div id="main-slider" class="flexslider">
+          <ul class="slides">
+            <li>
+              <img src="../themes/Optimus/assets/images/slides/1.jpg" alt="" />
+              <div class="flex-caption">
+                  <h3>Creative</h3>
+        <p>We create the opportunities</p>
+
+              </div>
+            </li>
+          </ul>
+      </div>
+<!-- end slider -->
+</section>

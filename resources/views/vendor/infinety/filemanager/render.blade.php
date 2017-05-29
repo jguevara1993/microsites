@@ -20,9 +20,9 @@
                         <div class="col-sm-8 info">
                             <p>{{ $file->name }}</p>
                             @if($file->folder->permission)
-                            <p class="small"> {{ $file->folder->folderCount + $file->folder->fileCount }} item(s)</p>
+                            <p class="small"> {{ $file->folder->folderCount + $file->folder->fileCount }} archivo(s)</p>
                             @else
-                                <p class="small">Without permission</p>
+                                <p class="small">Sin permisos</p>
                             @endif
                         </div>
                     </div>
@@ -45,7 +45,7 @@
                             <div class="row full-width centered">
                                 <div class="col-sm-12 info">
                                     <p class="name-file">{{ $file->name }}</p>
-                                    <p class="small">This file is not Readable</p>
+                                    <p class="small">Este archivo no se puede leer</p>
                                 </div>
                             </div>
                         </div>
@@ -56,7 +56,7 @@
 
    @else
        <div class="no-data">
-           <h3>There is not files or folders matching your request</h3>
+           <h3>No hay archivos o imagenes que coincidan con tu busqueda</h3>
        </div>
    @endif
 

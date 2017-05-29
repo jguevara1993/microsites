@@ -2,19 +2,6 @@
 @section('title', $post->PostTitle)
 @section('content')
 
-<section id="fh5co-index" data-section="index" style="background-image: url(../themes/Stylo/assets/images/img_bg_3.jpg);" data-stellar-background-ratio="0.5">
-  <div class="gradient"></div>
-  <div class="container">
-    <div class="text-wrap">
-      <div class="text-inner">
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2 text-center">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 <section id="fh5co-blog" data-section="blog">
   <div class="fh5co-blog">

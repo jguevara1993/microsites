@@ -1,5 +1,5 @@
 @extends('Clean_Dark::layouts.main')
-@section('title', 'Index')
+@section('title', 'Inicio')
 @section('content')
 
 
