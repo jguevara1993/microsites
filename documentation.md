@@ -32,7 +32,7 @@ Password: Administrador
 ## Crear nuevo tema
 >Todas las funciones de los temas extendienden las funciones del motor de vistas de laravel Blade templates
 ##### Estructura de carpeta
-![Folder Structure](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "folder structure")
+![Folder Structure](http://i66.tinypic.com/2psheo3.jpg "folder structure")
 - Carpeta con el nombre de tema
 - Assets (images, js, css, fonts)
 - Views (layouts, partials, vistas)
